@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background: #ffd2bb;
+    margin:0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+.container {
+    padding-top: 75px;
+}
+
+header .logo-thumbnail {
+    width: 75px;
+    height: 75px;
+    border-radius: 4px;
+  }
+
+  header .nav-lnk {
+    display: flex;
+    margin: 0 0 0 auto;
+    align-items: center;
+  }
+  header .nav-lnk li {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
+  li {
+      list-style-type: none;
+  }
