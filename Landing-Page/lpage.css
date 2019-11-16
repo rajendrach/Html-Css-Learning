@@ -10,7 +10,7 @@ header {
   }
 
 .container {
-    padding-top: 75px;
+    position: relative;;
 }
 
 header .logo-thumbnail {
@@ -19,17 +19,51 @@ header .logo-thumbnail {
     border-radius: 4px;
   }
 
-  header .nav-lnk {
+  header .nav-l {
     display: flex;
     margin: 0 0 0 auto;
     align-items: center;
+
   }
-  header .nav-lnk li {
+  .nav-link {
     border: 0;
     border-radius: 3px;
     padding: 5px;
+    background: indianred;
+    margin:3px;
   }
 
-  li {
-      list-style-type: none;
+   a{
+      display: block;
+      text-decoration: none;
+      color: black;
+
   }
+
+  .parallax-effect {
+        background-image: url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 75px;
+  }
+
+  .abouts {
+      left: 0;
+      top: 15%;
+      width: 100%;
+      color: black;
+      text-align: center;
+  }
+
+  .abouts .desc {
+      background: #ffd2bb;
+    border-radius: 20px;
+    margin:15px;
+  }
+
+@media (max-width:480px) {
+
+}
